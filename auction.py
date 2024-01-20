@@ -21,4 +21,4 @@ while not bidding_finished:
     should_continue = input("Are there any other bidders? Type 'yes' or 'no'.\n")
     if should_continue == "no":
         bidding_finished = True
-        find_highest_bidder(bids) 
+        find_highest_bidder(bids)
